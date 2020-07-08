@@ -1,68 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Homework helper:
 
-## Available Scripts
+Homework helper is an app for teachers to create quizzes. These quizzes are to be played in class by students in a "family feud" inspired game. I got the idea from my 7th grade science teacher. Every time we played this game we would get very excited and it would take LOADS of stress off upcoming tests.
 
-In the project directory, you can run:
+INSTRUCTIONS:
 
-### `npm start`
+The teacher should split the class into two equal sized teams
+Each team will be assigned a class-appropriate name and be split on each side of the class (optional: The students can vote for a leader of each group)
+One at a time the Teacher (or student leader) will assign one student from each team to answer a question from a mock quiz the teacher has created. Note: each student should have at least ONE opportunity to answer a question.
+When each student has made it to the computer they should each place a finger on either the left or right shift button, depending on which is closest to them.
+A three second countdown timer will appear on the screen prompting the upcoming question. Once the timer ends the question will appear one word at a time to avoid cheating.
+Once the question is displayed the students will race to see who can remember the correct answer first. If a student presses on their corresponding shift key prematurely the question will stop displaying the remaining words and said student will do their best to answer with the information displayed.
+After the student has verbally answered the question the teacher can display the correct answer. If the answer is suitable for the given question the teacher will assign that students team with a point. If it is wrong the other student has an opportunity to answer the same question. if BOTH students are wrong, they will be seated and another two students will take their place.
+At the end of the quiz the team with the most points wins a prize of the teachers choosing.
+TIPS:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+use Homework Helper a class before a big test.
+Let students know what the game and what the prizes are a class in advanced. (this should motivate them to study)
+When creating your quiz DO NOT do any form of multiple choice. The students are supposed to use their quick witts and knowledge of the course to verbally answer the questions.
+Most importantly: HAVE FUN! This is a game used to relieve stress before a big test. It inspires them to study with the game in mind instead of the big scary test ahead.
