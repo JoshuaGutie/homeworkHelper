@@ -1,0 +1,25 @@
+.nav-list-item {
+    color:black;
+    list-style: none;
+    border-radius: 25px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXVA9ndmewAK3JvPbzduYx6bJw5MHBj--vzw&usqp=CAU);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color:black;
+
+}
+
+.nav-list {
+    text-decoration: none;
+    color: black;
+}

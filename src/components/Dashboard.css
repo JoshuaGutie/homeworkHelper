@@ -1,0 +1,9 @@
+h1 {
+    color:green;
+}
+.container {
+    background-color: #34ADFF;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.89) 60%, #34ADFF 40%);
+    height: 100vh;
+    display: flex;
+}
