@@ -15,7 +15,7 @@ class Dashboard extends Component {
 
 	render() {
 		return (
-			<div className="container">
+			<div className="containerD">
 				<Navigation /> 
 			</div>
 		);

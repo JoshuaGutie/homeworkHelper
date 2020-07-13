@@ -1,24 +1,24 @@
-.nav-list-item {
-    color:#ccc;
+.nav-P-item {
+    color:black;
     list-style: none;
     border-radius: 25px;
     border-color: black;
-    background-color: #5d34ff;
+    background-color: #E6F6FD;
     background-position: left top;
     background-repeat: repeat;
-    padding: 20px;
     width: 100px;
     height: 50px;
     margin: 20px;
     text-align: center;
     font-size: 30px;
     transition: 0.5s;
+    text-align: center;
 }
 
-.nav-list-item a {
+.nav-P-item a {
     text-decoration: none;
-    color:#ccc;
-
+    color:black;
+text-align: center;
 }
 
 .nav-list {
@@ -27,12 +27,12 @@
 }
 
 
-.nav-list-item:hover {
+.nav-P-item:hover {
     transform: scale(1.1);
-    color: white;
+    color: #3FADF8;
   }
 
-  .nav-list-item a:hover {
+  .nav-P-item a:hover {
     transform: scale(1.1);
-    color: white;
+    color: #3FADF8;
   }

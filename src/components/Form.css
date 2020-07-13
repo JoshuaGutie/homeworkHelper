@@ -1,0 +1,13 @@
+.questionContainer {
+    border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: large;
+  text-decoration: none;
+  list-style: none;
+  background-color: #E6F6FD;
+  max-width: 700px;
+  text-align: center;
+  margin: 10px;
+  max-height: none;
+}

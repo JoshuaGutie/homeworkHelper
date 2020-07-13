@@ -1,13 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { useSelector } from "react-redux";
+import PlayNav from "./PlayNav";
+import "./Play.css";
+
+
 
 class Play extends Component {
-    render() {
-        return (
-            <div>
-                <h1>lmao</h1>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className =" containerP">
+        <PlayNav />
+      </div>
+    );
+  }
 }
 
 export default Play;

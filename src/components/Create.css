@@ -1,7 +1,22 @@
 .containerC {
     background-color: #34ADFF;
-    background-image: -webkit-linear-gradient(45deg, #34ADFF 60%, rgb(99, 38, 243) 40%);
+    background-image: -webkit-linear-gradient(45deg, #34ADFF 60%, #5d34ff 40%);
     height: 100vh;
     display: flex;
+    justify-content: center;
+}
+ 
+.formC {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: large;
+}
+li, h2{
+  margin: 10px
 }
 

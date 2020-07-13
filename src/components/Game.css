@@ -1,0 +1,19 @@
+.ready {
+    text-align: center;
+    color: black;
+    font-family: 'Londrina Outline', cursive;
+    font-size: 120px;
+    width: 200px;
+}
+.containerG{
+    background-color: #34ADFF;
+    background-image: -webkit-linear-gradient(45deg, #5d34ff 20%, #34ADFF 80%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.pose {
+font-size: 50px;
+text-align: center;
+}

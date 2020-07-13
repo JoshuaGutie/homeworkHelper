@@ -7,6 +7,9 @@ import Play from "./components/Play";
 import View from "./components/View";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
+import Game from "./components/Game";
+
+
 import {
   CSSTransition,
   TransitionGroup,
@@ -40,6 +43,8 @@ const Router = () => {
               <ProtectedRoute path="/create" component={Create} />
               <ProtectedRoute path="/play" component={Play} />
               <ProtectedRoute path="/view/:id" component={View} />
+              //add id to game later
+              <ProtectedRoute path="/game/" component={Game} />
             </Switch>
           </CSSTransition>
         </TransitionGroup>
