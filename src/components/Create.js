@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./Create.css";
-import Form from "./Form";
+import Form from "../containers/Form";
 
 class Create extends Component {
     render() {

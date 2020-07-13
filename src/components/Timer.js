@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import "./Game.css";
 import PlayNav from "./PlayNav";
+import Test from "./Test";
+
 
 
 export default class Timer extends Component {
     state = {
         minutes: 0,
-        seconds: 5,
+        seconds: 1,
     }
 
     componentDidMount() {
@@ -40,8 +42,10 @@ export default class Timer extends Component {
         return (
             <div>
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet" / >
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+
                 { minutes === 0 && seconds === 0
-                    ? <PlayNav />
+                    ? <Test />
                     : <h1 className ="ready">Get Ready!<br/>{minutes}:{seconds < 10 ? `0${seconds}` : seconds}</h1>
                 }
             </div>

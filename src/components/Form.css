@@ -11,3 +11,17 @@
   margin: 10px;
   max-height: none;
 }
+.questionContainerT {
+  border: 2px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 60px;
+text-decoration: none;
+list-style: none;
+color: black;
+max-width: 700px;
+text-align: center;
+margin: 10px;
+max-height: none;
+font-family: 'Bangers', cursive;
+}

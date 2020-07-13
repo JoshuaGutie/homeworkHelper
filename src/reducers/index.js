@@ -2,7 +2,7 @@ import questionReducer from './question'
 import {combineReducers} from 'redux'
 
 const allReducers = combineReducers({
-    questionReducer
+    questionT: questionReducer
 })
 
 export default allReducers;
